@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projects by Onikwa Babu.">
+  <title>Projects | Onikwa Babu</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">OB<span class="dot">.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-icon" aria-hidden="true">☰</span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html/index.html">About</a></li>
+          <li><a href="project.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-pressed="false">
+        <span aria-hidden="true">🌙</span>
+        <span class="visually-hidden">Toggle dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="container section">
+    <h1>Projects</h1>
+    <p class="lead">A selection of work I've built recently.</p>
+
+    <ul class="projects-grid">
+      <li class="project-card">
+        <div class="project-body">
+          <h2>Rainbow Weather</h2>
+          <p>A weather dashboard using the Open-Meteo API, with saved cities, unit toggling, and a keyboard-friendly search.</p>
+          <ul class="tag-list">
+            <li>JavaScript</li><li>Fetch API</li><li>CSS Grid</li>
+          </ul>
+        </div>
+      </li>
+      <li class="project-card">
+        <div class="project-body">
+          <h2>Kasi Market</h2>
+          <p>A small e-commerce front-end with cart state, filters, and accessible modals that trap focus correctly.</p>
+          <ul class="tag-list">
+            <li>HTML</li><li>CSS</li><li>JS</li>
+          </ul>
+        </div>
+      </li>
+      <li class="project-card">
+        <div class="project-body">
+          <h2>Study Buddy</h2>
+          <p>A focus-timer app with Pomodoro cycles, saved streaks, and keyboard-first controls. Works offline via a service worker.</p>
+          <ul class="tag-list">
+            <li>JS</li><li>localStorage</li><li>A11y</li>
+          </ul>
+        </div>
+      </li>
+      <li class="project-card">
+        <div class="project-body">
+          <h2>Design Tokens Playground</h2>
+          <p>An interactive page for previewing a color, type, and spacing scale in light and dark modes.</p>
+          <ul class="tag-list">
+            <li>CSS custom props</li><li>JS</li>
+          </ul>
+        </div>
+      </li>
+      <li class="project-card">
+        <div class="project-body">
+          <h2>ReadWell</h2>
+          <p>A reading-mode bookmarklet that strips clutter from articles and applies your preferred type settings.</p>
+          <ul class="tag-list">
+            <li>JavaScript</li><li>DOM</li>
+          </ul>
+        </div>
+      </li>
+      <li class="project-card">
+        <div class="project-body">
+          <h2>Simple Forms Kit</h2>
+          <p>An open-source set of accessible form components — labels, hints, and errors that stay usable in every theme.</p>
+          <ul class="tag-list">
+            <li>HTML</li><li>CSS</li><li>A11y</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Onikwa Babu. Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
